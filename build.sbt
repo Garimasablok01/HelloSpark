@@ -11,4 +11,4 @@ lazy val root = (project in file("."))
 val Version= "3.3.1"
 libraryDependencies += "org.apache.spark" %% "spark-core" % Version
 libraryDependencies += "org.apache.spark" %% "spark-sql" % Version
-
+libraryDependencies += "com.mysql" % "mysql-connector-j" % Version
